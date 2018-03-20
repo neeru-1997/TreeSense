@@ -359,5 +359,5 @@ public class TreeSense extends HttpServlet
             curr.longitude = tlLongitude;
         }
         return (sum / (hstretch * vstretch));
-    }
+    } 
 }
