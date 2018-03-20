@@ -26,4 +26,4 @@ green[imask] = img[imask]
 
 ## save
 #cv2.imshow("image",green)
-cv2.imwrite("hi43.png", green)
+cv2.imwrite("hi43.png", green) 
