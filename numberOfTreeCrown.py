@@ -45,7 +45,7 @@ for i in circles[0,:]:
 
 cv2.imshow('detected circles',cimg)
 cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() 
 
 
 
