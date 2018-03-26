@@ -48,12 +48,12 @@ public class TreeSense extends HttpServlet
     String query = "";
     String context = "";
     Calendar calendar;
-    private final String RDS_HOSTNAME = "aa1s7hqqt5bcdoq.cm0zxapofcuo.us-west-2.rds.amazonaws.com";
-    private final String RDS_DB_NAME = "ebdb";
-    private final String RDS_USERNAME = "treesense";
-    private final String RDS_PASSWORD = "treesense";
+    private final String RDS_HOSTNAME = "test.com";
+    private final String RDS_DB_NAME = "db";
+    private final String RDS_USERNAME = "user";
+    private final String RDS_PASSWORD = "pass";
     private final String RDS_PORT = "3306";
-    private final AWSCredentials credentials = new BasicAWSCredentials("AKIAJ4XEFACQABCKAHUQ", "ecYF1/ZWzmVqvhekIko6+mr0TyZpkt5kaVn+ul2J");
+    private final AWSCredentials credentials = new BasicAWSCredentials("ID", "KEY");
     private final AmazonS3 s3client = AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(credentials)).build();
     ExecutorService executor = Executors.newFixedThreadPool(1);
     
